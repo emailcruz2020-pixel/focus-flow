@@ -216,10 +216,6 @@
   </div>
 </div>
 
-<audio id="chime" preload="auto">
-  <source src="data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=" type="audio/wav">
-</audio>
-
 <script>
 (function () {
   const STORAGE_KEY = 'focusFlow.sessions';
@@ -246,7 +242,6 @@
   const streakValue = document.getElementById('streakValue');
   const todayValue = document.getElementById('todayValue');
   const totalValue = document.getElementById('totalValue');
-  const chime = document.getElementById('chime');
 
   const CIRC = 2 * Math.PI * 105;
   ringProgress.style.strokeDasharray = CIRC;
